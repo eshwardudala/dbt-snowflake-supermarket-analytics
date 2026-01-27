@@ -1,0 +1,27 @@
+sources:
+  - name: landing
+    database: SUPERMARKET
+    schema: L1_LANDING
+
+    tables:
+      - name: customers
+        identifier: customers
+      - name: orders
+        identifier: orders
+      - name: orderitems
+        identifier: orderitems
+      - name: employees
+        identifier: employees
+      
+      - name: dates
+        identifier: dates
+      
+      - name: products
+        identifier: products
+      
+      - name: stores
+        identifier: stores
+      
+      - name: suppliers
+        identifier: suppliers
+      
