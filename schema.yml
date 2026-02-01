@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: stg_source
+    tests:
+      - not_null:
+          column_name: "{{ var('primary_key') }}"
+      - unique:
+          column_name: "{{ var('primary_key') }}"
+
+  - name: stg_target
+    tests:
+      - not_null:
+          column_name: "{{ var('primary_key') }}"
+      - unique:
+          column_name: "{{ var('primary_key') }}"
